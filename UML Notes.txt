@@ -1,0 +1,64 @@
+UML 2.0 Lesson 1 link: https://www.youtube.com/watch?v=OkC7HKtiZC0 Derek Banas
+
+	Unified Modeling Language
+	A graphical way of describing software systems
+	UML Sketching vs. UML Blueprint
+	Platform Independent /Platform Specific
+
+
+UML Development Process
+	Waterfall
+		Analysis, Design, Coding and Testing (Done in Order)
+	Iterative (Most Common because all sorts of changes may initiate changes)
+		Solve in pieces
+
+UML Planning Process
+	Predictive Planning
+	Adaptive Planning (Agile Development)
+	If you can easily list all requirements use Predictive Planning
+
+Use Case
+
+List of steps a system needs to follow to reach a goal
+	Define what is required and how those requirements are met
+	Don't try to write code in a Use Case Diagram
+	Shall vs. Should Requirements
+These steps normally include interactions with an Actor (Human/External System)
+
+Jargon Terms For Use Case Diagrams
+	Stereotype - Describes the role of element (people or systems etc.)
+	Gillamont - (name of an actor)
+	Note - Symbol is piece of paper with it bent in corner
+	Tag Value - Go instead of Notes to help describe an element
+	Communication Lines - Connects Actors to Use Cases
+	System Boundary Line - Big Box that Surrounds your system and separates it from the Actors
+	<<Include>> - Two Use cases have to share something in common. Mandatory Sharing.
+	<<Extend>> - When a Use Case is optional. Extended Functionality. Optional is the only difference from <<Include>>
+	General Use Case - A general Use Case like "Select Amount"
+	Specific Use Case - looks like --- i> open faced arrows that point to General Use Cases which can define say "Amount in $10"
+
+First You Create a "Use Case Description"
+	
+	Description - Describes the Overall Use Case Diagram in more detail
+	Trigger - What is going to happen before the Use Case is triggered. 1. I.e. Machine receives a card
+	Actors - The Actors that are Involved
+	Preconditions - Conditions that have to be true for system to be functional. I.e. Secure Connection to Bank and Bank has Cash
+	Goals (Successful Conclusion) - May be broken into two separate parts. I.e. Secure Client Accounts and Provide Customer with Funds if on hand
+	Failed Conclusions - Conditions that stop the system from finishing Successful Conclusions. I.e. 1. Invalid Card, Invalid Pin, Insufficient Funds, Over Daily Limit, Stolen ID
+	Extension (Alternatives) - Usually elaborates on Use Case Diagram that uses the <<extend>> word. I.e. If PIN is invalid 3 times (eat card), If card is marked as Stolen (eat card)
+
+Steps of Execution (Requirements) - May be two separate parts
+	Try to list out all possible things that can happen in your system (besides throw errors)
+
+	1. Customer Inserts Card 1A. Card is Invalid 1B. Eject Card
+	2. Card is Validated
+	3. Customer Enters PIN 3A. PIN is Invalid 3B. PIN is Invalid 3 Times 3C. Card Marked as Stolen
+	4. PIN is Validated
+	5. Account is Selected
+	6. Amount is Selected 6A. Over Daily Maximum 6B Over Account Funds Available 6C. Over Funds in Machine 6D. Ask for New Amount
+	7. Provide $10 or $20
+	8. Provide Funds
+	9. Provide Receipt
+	10. Eject Card
+	
+		
