@@ -1,0 +1,45 @@
+UML 2.0 Lesson 1 link: https://www.youtube.com/watch?v=XFTAIj2N2Lc&index=2&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
+
+Jargon:
+
+Initial Node which is a filled in circle.
+
+Incoming Edge: arrow coming into an action
+
+Action: In rounded rectonagle
+
+Outcoming Edge: arrow coming out and action
+
+Merge: combined edges that are separated by a decision (diamond symbol) [authorized vs. not authorized]
+
+Merge Action: Actions take on a merge
+
+Merge point: combined edges are merged back together into a single (diamond symbol)
+
+Fork: Merge actions that need to be verified at same time.
+
+UML Let is free he recommends.
+
+Time Event: (shaped like hourglass) can be used as an initial node with with a duration. I.e. repeating node evey 30 seconds call activity node
+
+Dotted Line: Can bring out an action in more detail in it's own box
+
+Interruption Region: demonstrates an activity that can end without finishing the event (required use of lightning shape arrow)
+
+Object Node: Regular (non-rounded) rectangle common to attach a note to explain
+
+Flow final node: Circle with an X in it. Repeated annoying action that is undetermined.
+
+Partition: Passes task to another
+
+Object Output/Input Pin: object is being transfered demonstrated as little boxes with arrows
+<<tranformation>> order.items
+
+Signals: Funny shape rectangle with one side as a point. Send Signal and Receive Signal (fits in puzzle piece)
+
+Received Signals can start as an initial node.
+
+Connectors: You run out of space, put a circle with a C in it to continue the activity node to next line
+
+Expansion Region: Dotted region that represents a group of actions that need to be taken on group of objects
+
