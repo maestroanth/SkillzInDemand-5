@@ -1,0 +1,50 @@
+UML 2.0 Lesson 9 link: https://www.youtube.com/watch?v=nTtQwGoUUNc&index=9&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
+
+Use Deployment Diagrams to show how hardware and software work together.
+
+<<device>> are hardware nodes in 3D boxes
+
+Node Stereotypes
+
+<<executionEnvironment>> JSP Server {Tomcat 7}
+
+<<database system>> MySQL 5.5, you can use it in a 3D cylinder shape
+
+Named Nodes
+
+<<device>>
+cardVerify:server
+
+<<device>>
+fundsVerify:server
+
+Node Communication Lines
+
+Draw a line of communication <<protocol>>TCP/IP
+
+Nodes can be within each other I.e. Database is in Device
+
+Artifacts
+
+Software is Artifacts .txt, .exes. config etc
+
+2D sheet of paper with a little note pic
+<<artifact>> atm.jar
+
+Tie artifacts to nodes with dependency arrows ---> to <<device>>
+
+or list artifacts within node itself
+
+Artifacts & Components
+
+<<manifest>> to <<component>>cardReader Components define the requirements to operate artifacts
+
+Deployment Specifications
+
+Guys that stand between your code and the execution node or device node
+
+<<executionEnvironment>> look like an artifact node
+
+Specification Deployment Diagram
+	Includes all the different devices like an ATM has a keypad printer, money grabber, etc.
+

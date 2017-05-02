@@ -1,0 +1,33 @@
+UML 2.0 Lesson 6 link: https://www.youtube.com/watch?v=F3yROOhK8qk&index=6&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
+
+Making Timing Diagrams: Find the States (i.e. from Use Case Description)
+
+Find the Participants (i.e. Actors or System Parts)
+
+Match States to Participants
+
+Customer
+	Card in Hand
+
+	Put in Card
+
+Card Reader
+	
+	No Card
+	Holding Card
+Bank System
+	Account Valid
+	Amount Valid
+
+
+Put States in Order (they should correlate and match i.e. if customer has card in hand then card reader and bank system has no card
+
+Count is in T (whatever units) along an X axis
+
+Graph how long each state and event takes among each participant.
+
+Only use participants with major interactions in timing diagram
+
+Arrows to show triggered events
+
+Stopped video at: 5:30

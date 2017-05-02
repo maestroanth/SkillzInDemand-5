@@ -1,0 +1,85 @@
+UML 2.0 Lesson 3 link: https://www.youtube.com/watch?v=3cmzqZzwNDM
+
+Jargon:
+
+
+Public (+): Accessible to all
+Protected (+): Class & Subclasses can call Access
+Package/Default (~): Can be called by any class within its package
+Private (-): Class Methods Only and Not Subclasses
+Attributes/Fields should be Private or Protected
+
+Multiplicity
+
+Declaring an attribute represents a group of Objects
+Set Number: [1..10]
+Unknown Number: [*]
+{unique}, {notUnique}, {ordered}, {readOnly}
+Static Attributes - shared attribute between ALL class objects (underlined)
+
+Class Dependence: Dependency
+Dependency: Objects work briefly with objects of another class
+
+Ex. Dog is passed as a parameter, and used as output.
+
+No tight-coupling/tightly-coupled class where a change to one class changes a bunch of others
+
+Want Loosely-coupled class
+
+Class Dependence: Association
+
+	Association: Classes have a direct relationship with each other, but don't necessarily have attributes attributed to one another.
+
+	Ex. Teaches Have Students, but they  may have many different students. Just connected in another class but not directly associated.
+
+Class Dependence: Aggregation & Composition
+
+	Breed has an Aggregate relationship to Dog. 
+
+Aggregation: Dog is the Aggregate of many other Objects that describe it like Breed does.
+	Breed may be used in many composite instances
+
+Composition: Dog owns the Attribute Breed
+
+	If a part is deleted when the composite is deleted show it in the diagram
+
+Class Dependence: Inheritance
+
+	Tightly-Coupled relationship
+
+	When a subclass is created from another class
+
+	All fields and methods are shared if they are marked as public protected or default
+
+Constraints
+
+	Constraints define rules for parts of classes (I.e. Not Null)
+
+Preconditions must be true before a method is executed
+
+Postconditions must be true after execution
+
+Define rules in curly braces or notes
+
+OCL = Object Constraint Language
+
+	Standard way of creating constraints
+	Data Types: Bool, In, Real, String
+	Arithmetic: +, -, *, / modulus, min(), max(), abs()
+	Comparison: <, >, <=, >=, ==
+	Boolean: and, or, xor, not
+
+Abstract Class Diagrams
+
+	Abstract class names and methods are italic
+	Some methods are defined as Abstract so that subclasses have to implement them
+	Use the inheritance arrow like before (non filled arrow)
+
+Interface Class Diagrams
+
+	Use either ball notation or <<interface>> 
+
+Object Diagrams
+
+	Describe how objects work together
+	

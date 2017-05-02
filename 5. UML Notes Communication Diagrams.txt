@@ -1,0 +1,16 @@
+UML 2.0 Lesson 5 link: https://www.youtube.com/watch?v=TL4ABTx_RtE&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=5
+
+Compared to Sequence Diagrams (which focus on the order of interactions)
+
+Communication Diagrams show links between participants. (Can be Diagonal)
+
+1.1 (Participant #1 and which message )
+2.3 (Participant # 2 message 3)
+
+Nested Methods are a little different. Only shows One time interaction
+
+Parrallel Methods are a little different, add letter to number 1a.1 or 2b.3
+
+Always draw in a link (w/o arrow) and then an arrow to whoever is sending and receiving
+
+Finished notes at 5:00min mark

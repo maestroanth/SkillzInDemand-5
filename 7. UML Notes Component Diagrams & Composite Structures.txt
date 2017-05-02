@@ -1,0 +1,20 @@
+UML 2.0 Lesson 7 link: https://www.youtube.com/watch?v=KQUGFFN4M90&index=7&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
+
+Component Diagrams and Composite Structures
+
+Component Diagrams
+
+Components are used to create reusable pieces of code.
+	<<Component>> LanguageTranslator
+
+Components must communicate through interfaces: loosely coupled and swappable.
+
+LanguageIn LanguageOut
+
+(ServiceIn) (ServiceOut)
+
+Required Interface vs. Provided Interface
+
+Dependecy Arrow (Required Interface ie. setResult(String toTranslate): void) ----> or Realization Arrow ---l> *open arrow* (Provided Interface ie. getResult():String)
+
+Stopped at 3:15minutes

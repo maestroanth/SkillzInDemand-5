@@ -1,0 +1,44 @@
+UML 2.0 Lesson 4 link: https://www.youtube.com/watch?v=cxG-qWthxt4&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=4
+
+Jargon:
+
+Sequence Diagrams Models interactions in your program, and show order of interactions
+
+Which interactions are triggered and when
+
+Participants (sometimes across the top) - can be objects or parts of system. Objects name and class type. theCustomer:Customer, except for anonymous listeners (action listeners)
+
+Lifeline: ------- (time going down)
+
+Message Arrow -> Passes Message signature. Filled in arrow means synchronous message, they wait for reply in between each.
+
+Non-filled Arrow -> Asyncronous, not wait for reply.
+
+<<create>> another participant can occur
+
+<<delete>> big X participant is destroyed
+
+Bunch of types of Sequence Fragments
+
+Sequence Fragment (pinEnteredWrong >=3] Guard Condition Parameter
+
+Negative Sequence Fragments
+
+Reference Sequence Fragments (used to separate complex interactions in sequence diagrams)
+
+Loop Sequence Fragment loop(amt<=balance) until Guard Condition comes back as false or define min and max or 5 times
+
+Parallel Sequence Fragment Interactions can be in Parallel.
+
+Defining Time COnstraints call(>10ms) reply (>5ms)
+
+Dfine Lost Message: ---->O
+Defines Found Message: O----> (circles filled in)
+
+Assert Sequence Fragment
+
+Break Sequence Fragment (with break condition out of loop)
+
+Critical Sequence Fragment Lock out Operations
+
+Nested Messages: one message cause the receiving participant to send or receive other messages.

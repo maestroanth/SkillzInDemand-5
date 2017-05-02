@@ -1,0 +1,27 @@
+UML 2.0 Lesson 8 link: https://www.youtube.com/watch?v=_6TFVzBW7oo&index=8&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc
+
+State Machine and Package Diagrams
+
+State Machine Diagrams Model the changing states of objects and events that cause these changes
+
+Transition Arrows ---> between rounded corner boxes
+
+Events are written across transition arrows trigger state changes
+
+May be listed in tables:
+
+State/Trigger  Card Entered  Eject Card
+No Card		Has Card	-
+Has Card	   -		No Card
+
+Normally have initial state and final state.
+
+Document behaviors that occur when you are in a state.
+
+Can self call states with a looped around arrow
+
+Initial state <-(loop)->Request funds -> List a trigger, guard, transitional behavior. -> Process Request -> Final State
+
+Stopped at 4min.
+
+
